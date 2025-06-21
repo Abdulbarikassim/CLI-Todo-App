@@ -1,0 +1,24 @@
+1) Setting up the projects: 
+  * Setting up the python virtual environment. 
+    - Installing the needed dependencies for the project: 
+       - typer: To create the CLI application.  
+       - colorama: Ensures that color works efficiently. 
+       - shellingham. 
+       - pytest: Testing the application.
+  * Define the project Layout.  
+    - This Step is to frame the packages, modules and the files needed for the 
+      application. 
+
+    Here is description of the packages content: 
+      - __init__.py : Enables abtodo/ to be a python package. 
+      - __main__.py: Provides an entry-point script to run the app from packages
+                      using the python -m abtodo command. 
+      - cli.py: Provides the typer command-line interface for the application.
+      - config.py: contains the code to handle the configuration of the app. 
+      - database.py: contains code to handle the database of the app. 
+      - abtodo.py : Provides code to connect the CLI with the todo database. 
+2) Set up the todo application with python and typer:
+  
+
+
+
